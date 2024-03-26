@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik+Maps&display=swap');
+
+.helpContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+
+.faqImageContainer {
+  margin-left: -80px; /* Adjust the margin-left as needed to move the image to the left */
+}
+
+.FAQ {
+  width: 600px;
+  height: 700px; /* Adjust the height as needed to make the image longer */
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.accordionContainer {
+  display: flex;
+  flex-direction: column; /* Stack the accordions vertically */
+  flex-grow: 1; /* Take up the remaining space */
+  margin-top: 30px;
+}
+
+.accordionHeader {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Adjusted alignment */
+  justify-content: space-between;
+}
+
+.fa-chevron-down {
+  justify-content: space-between;
+}
+
+.accordionHeader i {
+  color: rgb(0, 0, 0); /* Use the website's color scheme for the icon */
+  font-size: 1.5rem;
+  margin-right: 10px; /* Adjusted margin */
+}
+
+.accordionHeaderText {
+  margin: 0;
+}
+
+.accordionContent {
+  padding: 10px;
+}
+
+.icon-plus:before {
+  content: '+';
+  color: black;
+}
+
+.icon-minus:before {
+  content: '-';
+  color: black;
+}

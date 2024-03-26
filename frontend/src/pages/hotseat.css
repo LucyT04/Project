@@ -1,0 +1,121 @@
+.hotseat-content h1 {
+    font-size: 24px; 
+  }
+  
+  .hotseat-question {
+    font-size: 35px; /* You can adjust the size as needed */
+    color: black;
+  }
+
+  .hotseat-button {
+    font-size: 40px; 
+  }
+  
+
+  .hotseat-content p {
+    font-size: 16px; 
+  }
+
+  .hotseatgame-content h1 {
+    margin-bottom: 20px;
+  }
+  
+
+  .modal-content {
+    font-size: 16px; 
+  }
+  
+
+  .modal-content h2 {
+    font-size: 24px; 
+  }
+  
+
+  .modal-content button {
+    font-size: 16px; 
+  }
+
+  .answer-button {
+    font-size: 30px; 
+    padding: 20px 20px; 
+    margin: 40px; 
+  }
+
+  .timer-container {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: #db3f34; /* Adjust the color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out; /* Smooth transition for the animation */
+  }
+  
+  .timer-container.shake {
+    animation: shake 0.5s infinite; /* Shake animation for 0.5 seconds, infinite times */
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+
+  .timer-container.shake.game-over {
+    animation: none;
+  }
+  
+  .hotseat-time {
+      font-size: 30px;
+      color: black;
+  }
+
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-content h2 {
+    font-size: 24px;
+  }
+  
+  .modal-content p {
+    font-size: 18px;
+  }
+  
+  .modal-content button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #45a049; 
+  }

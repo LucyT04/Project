@@ -1,0 +1,22 @@
+.story-builder {
+    text-align: center;
+  }
+  
+  .sentences-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .sentence {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 600px;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+  }
+  
+   .game-container {
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px; 
+    width: 100%;
+    margin: auto; 
+    margin-left: 400px;
+    margin-top: 40px;
+  } 
+  
+  .page-container h1 {
+    color: #000000;
+    align-items: center;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  #lives {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+
+  .heart-icon {
+    color: #e74c3c; 
+    font-size: 24px; 
+    margin-right: 5px; 
+  }

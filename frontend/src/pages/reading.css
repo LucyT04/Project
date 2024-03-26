@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .optionContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .box {
+    background-color: #3498db;
+    color: #fff;
+    padding: 130px; /* Increase padding for a larger box */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 16px; /* Make border radius larger for a more square shape */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box:hover {
+    background-color: #2980b9;
+  }

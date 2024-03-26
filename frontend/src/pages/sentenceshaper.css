@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  .text-container {
+    background-color: rgb(243, 241, 241);
+    padding: 60px; /* Add padding for spacing */
+    max-width: 800px; /* Set the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 2px solid black; /* Add black border */
+  }
+  
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  p.success {
+    color: #4caf50;
+  }
+
+  p.error {
+    color: #ff0000;
+  }
+
+  li {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .green {
+    color: green;
+  }
+
+  .sentence-shaper-container {
+    display: flex; /* Use flexbox layout */
+    min-height: 100vh; /* Ensure the container spans the entire viewport height */
+  }
+  
+  
+  .game-content {
+    flex: 1; /* Make the game content fill the remaining space */
+    background-image: url('../images/shaperbackground.png');
+    background-size: cover; /* Cover the entire content area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .game-content > div {
+    flex: 1; /* Make the game content fill the remaining space vertically */
+  }

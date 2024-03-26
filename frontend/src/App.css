@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik+Maps&display=swap');
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* REGISTER */
+
+.registerPage {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerContainer {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 150px; /* Adjust the margin-top value as needed */
+}
+
+.registerContainerButtonWrapper {
+  margin-top: 15px;
+  text-align: center; /* Center the button */
+}
+
+.registerContainer button {
+  width: 150px;
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: rgb(29, 209, 140);
+  border-radius: 5px;
+  color: white;
+}
+
+.registerContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(20, 165, 110);
+}
+
+.registerContainer h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Adjust the margin-bottom for spacing */
+  color: rgb(20, 165, 110);
+}
+
+
+.registerContainer label {
+  text-align: left;
+  font-size: 20px;
+}
+
+.registerContainer input {
+  height: 40px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+#inputRegister {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; 
+  width: 500px; 
+}
+
+ #inputFirstName {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+#inputSurname {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+#inputEmail {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+#inputPassword {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+#inputConfirm {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 500px; /* Expand the input to fill the available space */
+}
+
+
+/* LOG IN */ 
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.loginContainer h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Adjust the margin-bottom for spacing */
+}
+
+.loginContainer h3 {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Adjust the margin-bottom for spacing */
+  font-size: 40px;
+  color: rgb(20, 165, 110);
+}
+
+.backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the background behind other elements */
+}
+
+.loginContainer #inputRegister {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 2px solid rgb(95, 94, 94);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+
+.loginContainerButtonWrapper {
+  margin-top: 15px;
+  text-align: center; /* Center the button */
+}
+
+.loginContainer button {
+  width: 150px;
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: rgb(29, 209, 140);
+  border-radius: 5px;
+  color: white;
+  align-content: center;
+}
+
+.loginContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(20, 165, 110);
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex; /* Add flex display to align items horizontally */
+}
+
+.mailContainer {
+  position: relative;
+  display: flex; /* Add flex display to align items horizontally */
+}
+
+#inputmail {
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 17px;
+  padding-right: 30px; /* Adjust padding as needed */
+  width: 450px; /* Expand the input to fill the available space */
+}
+
+.eyeButton {
+  position: absolute;
+  background-color: transparent !important;
+  top: 35%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+  width: 50px;
+}
+
+.fa-eye {
+  width: 220px;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-left: -40px;
+  margin-top: -10px;
+}
+
+.fa-envelope {
+  margin: 0px 5px;
+}
+
+.fa-lock {
+  margin: 0px 5px;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.email-icon,
+.password-icon {
+  margin-right: 0.5rem;
+}
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to right, #49bd4f, #2dbbd4);
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlogo{
+  width: 70px;
+  height: 70px;
+
+}
+
+.navbar h1 a{
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-size: 50px;
+  margin-left: 0px;
+  color: black;
+
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.loginPage {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* PROFILE */ 
+
+.profileHeader {
+  margin-bottom: 20px; /* Add margin to separate the header and profile information */
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid #ccc; */
+  /* border-radius: 8px; */
+  max-width: 500px;
+  /* other styles remain unchanged */
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  color: #666;
+  font-size: 20px;
+}
+
+.profileName {
+  color: #333;
+  font-size: 25px;
+}
+
+.profileAge {
+  color: #333;
+  font-size: 25px;
+  margin-top: 5px; /* Add margin to separate name and age */
+}
+
+.extraProfileDetails {
+  color: #000000;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.profilePageContainer {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.bioContainer {
+  background-color: rgb(120, 209, 175);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 100px 0 0 250px;
+}
+
+.underline{
+  width: 390px;
+  height: 6px;
+  background: rgb(51, 51, 51);
+  border-radius: 9px;
+}
+
+.bioText {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Achievments */
+
+.achievementsSection {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 430px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.achievementsSection h2 {
+  font-size: 30px;
+}
+
+.achievementImages {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.achievement {
+  margin-right: 50px;
+  text-align: center; 
+}
+
+.achievement p {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.achievement:last-child {
+  margin-right: 0;
+}
+
+.achievement img {
+  width: 100px; /* Adjust the image width as needed */
+  height: 100px; /* Adjust the image height as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+/*SIDEBAR*/
+
+.Sidebar {
+height:100%;
+width:250px;
+margin-top: -30px;
+float: left; /* Float the sidebar to the left */
+
+}
+
+.SidebarList { 
+  height: auto;
+  padding: 0;
+  width: 100%;
+  float: left;
+
+}
+
+.SidebarList .row {
+  width: 45%;
+  height: 50px;
+  list-style-type: none;
+  margin: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px; /* Adjust the font size */
+  margin-top: 50px;
+
+}
+
+.SidebarList .row :hover {
+  cursor: pointer;
+  color: rgb(29, 209, 140);
+}
+
+.row #title {
+  flex: 70%;
+
+}
